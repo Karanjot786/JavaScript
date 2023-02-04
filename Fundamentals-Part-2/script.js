@@ -136,24 +136,67 @@
 ///////////////////////////////////////
 // Introduction to Objects and Dot vs. Bracket Notation
 
-const karan = {
-    firstName: 'Karanjot',
-    lastName: 'Singh',
-    age: 2023 - 2003,
-    job: 'teacher',
-    friends: ['Michael', 'Peter', 'Steven']
-};
-console.log(karan);
-console.log(karan.firstName);
-console.log(karan.lastName);
-console.log(karan['firstName']);
+// const karan = {
+//     firstName: 'Karanjot',
+//     lastName: 'Singh',
+//     age: 2023 - 2003,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven']
+// };
+// console.log(karan);
+// console.log(karan.firstName);
+// console.log(karan.lastName);
+// console.log(karan['firstName']);
 
-const nameKey = 'Name';
-console.log(karan['first' + nameKey]);
-console.log(karan['last ' + nameKey]);
+// const nameKey = 'Name';
+// console.log(karan['first' + nameKey]);
+// console.log(karan['last ' + nameKey]);
 
 // const interested = prompt("What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends");
 // if(karan[interested]){
 //     console.log(karan[interested]);
 
 // }
+
+///////////////////////////////////////
+// Object Methods
+// const karan = {
+//     firstName: 'Karanjot',
+//     lastName: 'Singh',
+//     birthYear: 2003,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriversLicense: true,
+
+//     // calcAge: function(birthYear){
+//     //     return 2023 - birthYear;
+//     // }
+
+//     // calcAge: function(){
+//     //     console.log(this);
+//     //     return 2023 - this.birthYear;
+//     // }
+
+//     calcAge: function () {
+//         this.age = 2023 - this.birthYear;
+//         return this.age;
+//     },
+//     getSummary: function () {
+//         return `${this.firstName} ${this.lastName} is a ${this.calcAge()}-year old, and he Birth Year is ${this.birthYear} and he ${this.friends.length} friends and he is best friend is ${this.friends[0]} and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license`;
+//     }
+// };
+// // console.log(karan.calcAge(2003));
+// console.log(karan.calcAge());
+// // karan.calcAge();
+// console.log(karan.age);
+// console.log(karan.getSummary());
+
+
+///////////////////////////////////////
+// Iteration: The for Loop
+
+
+// for loop keeps running while condition is TRUE
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifting weights repetition ${rep}`);
+}
