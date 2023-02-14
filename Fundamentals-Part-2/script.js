@@ -197,6 +197,81 @@
 
 
 // for loop keeps running while condition is TRUE
-for (let rep = 1; rep <= 10; rep++) {
-    console.log(`Lifting weights repetition ${rep}`);
-}
+// for (let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting weights repetition ${rep}`);
+// }
+
+///////////////////////////////////////
+// Looping Arrays, Breaking and Continuing
+// const types = []
+// const karan = [
+//     'karanjot',
+//     'singh',
+//     2037 - 2003,
+//     ['Michael', 'Peter', 'Steven'],
+//     true
+// ];
+
+// for (let i = 0; i < karan.length; i++) {
+//     console.log( karan[i],typeof karan[1]);
+//     // Filling types array
+//     // types[i] = typeof karan[i];
+//     types.push(typeof karan[i]);
+// }
+
+// console.log(types);
+
+// const years = [1992,1993,1995,1997,2003];
+// const ages = [];
+
+// for (let j = 0; j < years.length; j++) {
+//     const element = years[j];
+//     ages.push(2023-years[j]);
+// }
+// console.log(ages);
+
+// // continue and break
+// console.log('--- ONLY STRINGS ---')
+// for (let i = 0; i < karan.length; i++) {
+//     if(typeof karan[i] !== 'string') continue;
+//     console.log( karan[i],typeof karan[1]);
+// }
+
+// console.log('--- BREAK WITH NUMBER ---')
+// for (let i = 0; i < karan.length; i++) {
+//     if(typeof karan[i] === 'number') break;
+//     console.log( karan[i],typeof karan[1]);
+// }
+
+
+///////////////////////////////////////
+// Looping Backwards and Loops in Loops
+
+// for (let i = karan.length - 1; i >= 0; i--) {
+//     console.log(i, karan[i]);
+// }
+
+
+
+// for (let exercise = 1; exercise < 4; exercise++) {
+//     console.log(`-------- Starting exercise ${exercise} --------`);
+//     for (let rep = 1; rep < 6; rep++) {
+//         console.log(`Exercise ${exercise} Lifting weights repetition ${rep}`);
+//     }
+// }
+
+///////////////////////////////////////
+// The while Loop
+// let rep =1;
+// while (rep <=10) {
+//     console.log(`Lifting weights repetition ${rep}`);
+//     rep++;
+// }
+
+// let dice = Math.trunc(Math.random() * 6)+1;
+
+// while(dice !==6){
+//     console.log(`You rolled a ${dice}` );
+//     dice = Math.trunc(Math.random() * 6)+1;
+//     if(dice === 6)console.log('Loop is about to end...');
+// }
